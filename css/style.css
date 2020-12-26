@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+center{
+    position: relative;
+    margin: 10px auto;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    line-height: 60px;
+    background: rgb(66, 224, 224);
+    color: rgba(0, 0, 0, 0.452)
+    font-weight: bold;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+}
+
+#calculadora{
+    position: relative;
+    margin: 5px auto;
+    width: 400px;
+    height: 640px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background: rgba(66, 224, 224, 0.548);
+}
+
+#operaciones{
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px #999;
+    padding: 10%;
+    text-align: right;
+    font-size: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#calculadora ul{
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#calculadora ul li {
+    float:left;
+    padding: 32px;
+    width: 15px;
+    text-align: center;
+    margin: 8px;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #999;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#calculadora ul li:hover{
+    background: rgba(1, 44, 44, 0.5);
+    color:white;
+}
+
+#calculadora ul li:active{
+    background: magenta;
+    color:white;
+}
+
+#borrar{
+    position: absolute;
+    bottom: 10px;
+    padding: 10px 25px;
+    width: 160px;
+    background: magenta;
+    border-radius: 10px;
+    left: 100px;
+    border: 5px solid #bbb;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+#borrar:hover{
+    background: purple;
+}
+
+#borrar:active{
+    background: cyan;
+}
+
+#calculadora .signo, #calculadora .igual, #calculadora .decimal{
+    font-size: 20px;
+
+}
